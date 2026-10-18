@@ -1,0 +1,31 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/features=4.8
+
+main_scene=res://scenes/main.tscn
+
+[project]
+
+name="Circuito Cero"
+author="Reborn"
+godot_version="4.2"
+test_path="test/"
+asset_path="res/"
+scene_path="scenes/"
+script_path="scripts/"
+doc_path="doc/"
+output_path="output/"
+temp_path="temp/"
+cache_path="cache/"
+logs_path="logs/"
+assets=["res/", "scenes/", "scripts/", "doc/", "output/" ]
